@@ -70,7 +70,6 @@ margin: 10px;
     color: rgba(255,255,255,0.8);
     float: right;
     padding: 10px 20px;
-    z-index: 2000;
 }
 
     
@@ -102,6 +101,8 @@ margin: 10px;
         padding-top: 45px;
         
         }
+
+    }
     .nav__title{
         display: none;
         }
@@ -119,17 +120,17 @@ margin: 10px;
         }
     
     .nav__responsive-ul:hover > .nav__li-container{ 
-        top: 0;
+        top: -45px;
         transition: all 1s;
          }    
    
-}
+
 
 body {
     background: rgb(0,0,0);
 }
 .caja1 {
-    padding-top: 130px ;
+    
     background-color: #000;
 }
 
@@ -169,8 +170,8 @@ body {
     }
 
     .caja1 div {
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 
 
