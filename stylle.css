@@ -70,6 +70,7 @@ margin: 10px;
     color: rgba(255,255,255,0.8);
     float: right;
     padding: 10px 20px;
+    z-index: 2000;
 }
 
     
@@ -159,4 +160,19 @@ body {
 }
 .caja1 div a:visited{
     color: rgb(200,200,200);
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .caja1 {
+            width: 100%;
+    }
+
+    .caja1 div {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
 }
