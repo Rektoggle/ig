@@ -166,12 +166,14 @@ body {
 
 @media only screen and (max-width: 1250px) {
     .caja1 {
-            width: 100%;
+        width: 100%;
+    
     }
 
     .caja1 div {
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
+        
     }
 
 
